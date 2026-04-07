@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body{background-color: #000;}
+
+h1{
+    color: white;
+}
+
+.firstBall{
+    display: flex;
+    margin: auto;
+    
+    flex-wrap: wrap;
+    place-content: center;
+    
+    width: 100px;
+    height: 100px;
+
+    background-color: yellow;
+    border-radius: 50%;
+}
